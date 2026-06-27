@@ -178,7 +178,7 @@ FFmpeg 编码 + 混音
 MP4（确定性输出）
 ```
 
-关键：使用 Chrome **BeginFrame API** 实现帧精确定位（`time = floor(frame) / fps`），不存在掉帧问题。
+关键：使用 Chrome DevTools Protocol 帧控制接口实现精确定位（`time = floor(frame) / fps`），不存在掉帧问题。
 
 ### data-* 属性速查表
 
@@ -290,7 +290,8 @@ tl.from("#chars", {
   ease: "steps(12)"
 }, 3);
 
-// 逐字出现（需配合 SplitText 插件）
+// 逐字出现（需配合 GSAP SplitText 插件——注意：SplitText 为 GSAP 付费会员插件）
+// 免费替代方案：CSS overflow:hidden + letter-spacing 动画，或使用 GSAP TextPlugin
 // tl.from(".char", {
 //   opacity: 0,
 //   y: 20,

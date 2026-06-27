@@ -159,7 +159,7 @@ Agent 2："重写用户认证逻辑，用 JWT 替代 Session"
 Agent 3："更新用户模块的测试覆盖"
 ```
 
-三个 Agent 并行跑，同时出结果。**3 倍速度，同样的 token 预算。**
+三个 Agent 并行跑，同时出结果。**3 倍速度**（但总 token 消耗约为串行的 3 倍，每个 Agent 各自维护上下文）。
 
 ---
 
@@ -237,7 +237,7 @@ Claude Code 访问 `api.anthropic.com` 不稳定。需要配置兼容接口：
 // ~/.claude/settings.json
 {
   "ANTHROPIC_BASE_URL": "https://your-provider.com/v1",
-  "ANTHROPIC_AUTH_TOKEN": "your-api-key"
+  "ANTHROPIC_API_KEY": "your-api-key"
 }
 ```
 
@@ -274,4 +274,4 @@ Claude Code 访问 `api.anthropic.com` 不稳定。需要配置兼容接口：
 ---
 
 *上一篇：[AI 视频工作流全指南](/posts/ai-video-workflow)*
-*下一篇：[提示词工程深度指南](/posts/)*
+*下一篇：[提示词工程深度指南](/posts/prompt-engineering)*

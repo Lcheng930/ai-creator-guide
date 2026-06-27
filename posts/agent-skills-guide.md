@@ -72,7 +72,7 @@ my-skill/
 
 ```powershell
 # PowerShell
-mkdir -p $env:USERPROFILE\.claude\skills\api-generator
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\api-generator"
 ```
 
 **macOS / Linux：**
@@ -528,7 +528,7 @@ Claude Code 在国内访问 `api.anthropic.com` 不稳定。需要在 `~/.claude
 ```json
 {
   "ANTHROPIC_BASE_URL": "https://your-provider.com/v1",
-  "ANTHROPIC_AUTH_TOKEN": "your-api-key"
+  "ANTHROPIC_API_KEY": "your-api-key"
 }
 ```
 
@@ -668,11 +668,12 @@ Claude Code 启动时会在终端输出 skill 加载信息。如果看到类似 
 *本文约 5500 字。如果对你有帮助，欢迎分享。你的分享是这个内容资产成长的养分。*
 
 *上一篇：[HyperFrames 完全指南](/posts/hyperframes-guide) —— 用 HTML 写视频，AI Agent 原生支持的开源框架。*
+*下一篇：[AI 视频工作流全指南](/posts/ai-video-workflow) —— 从提示词到发布的自动化流水线。*
 
 ---
 
 ::: tip 相关阅读
 - [HyperFrames 完全指南](/posts/hyperframes-guide) — 结合 HyperFrames + Agent Skills，可以实现"一句话生成批量营销视频"的自动化流水线
-- 用 Claude Code + HyperFrames 自动化视频生产（即将发布）
+- [AI 视频工作流全指南](/posts/ai-video-workflow) — 完整的视频生产管线
 - Agent Skills 进阶：10 个真实项目 Skill 模板合集（即将发布）
 :::

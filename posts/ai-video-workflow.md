@@ -254,10 +254,11 @@ AI 生成的素材通常有这些问题：
 
 ## 下一步
 
-- 📖 阅读[提示词工程深度指南](/posts/)——精确控制 AI 输出的系统方法论
+- 📖 阅读[提示词工程深度指南](/posts/prompt-engineering)——精确控制 AI 输出的系统方法论
 - 🎬 用本工作流制作你的第一条 AI 短剧
 - 📊 记录每个环节的实际耗时和成本，找到瓶颈优化
 
 ---
 
-*下一篇：[Claude Code 深度实战指南](/posts/)*
+*上一篇：[Agent Skills 完全指南](/posts/agent-skills-guide)*
+*下一篇：[Claude Code 深度实战指南](/posts/claude-code-guide)*
