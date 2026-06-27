@@ -46,8 +46,8 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     theme: {
-      dark: 'dracula',
-      light: 'dracula',
+      dark: 'vitesse-dark',
+      light: 'vitesse-light',
     },
   },
 })
