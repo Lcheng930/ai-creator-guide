@@ -552,7 +552,7 @@ div[class*='language-']::before {
 }
 
 /* =================================================================
-   BLOCKQUOTE — 手写标注风格
+   BLOCKQUOTE
    ================================================================= */
 blockquote {
   border-left: 2px solid var(--accent);
@@ -560,15 +560,14 @@ blockquote {
   margin: 1.5em 0;
   padding: 16px 20px;
   border-radius: 0 8px 8px 0;
-  font-family: var(--font-hand);
-  font-size: 0.95rem;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
 }
 
 blockquote p {
   margin: 0;
-  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-style: normal;
+  color: var(--text-primary);
 }
 
 /* =================================================================
