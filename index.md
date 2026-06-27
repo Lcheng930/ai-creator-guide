@@ -9,11 +9,23 @@ hero:
       text: 开始阅读
       link: /posts/
     - theme: alt
-      text: HyperFrames 指南
+      text: HyperFrames
       link: /posts/hyperframes-guide
     - theme: alt
-      text: Agent Skills 指南
+      text: Agent Skills
       link: /posts/agent-skills-guide
+    - theme: alt
+      text: AI 视频工作流
+      link: /posts/
+    - theme: alt
+      text: Claude Code 深度
+      link: /posts/
+    - theme: alt
+      text: 提示词工程
+      link: /posts/
+    - theme: alt
+      text: 工具链测评
+      link: /posts/
 
 features:
   - icon:
