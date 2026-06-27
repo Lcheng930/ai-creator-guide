@@ -8,18 +8,15 @@
   },
   "tokenColors": [
     {
-      "name": "Base — 所有代码 80% 白色",
+      "name": "Base — 80% 白色",
       "scope": ["source"],
-      "settings": {
-        "foreground": "#cccccc"
-      }
+      "settings": { "foreground": "#cccccc" }
     },
     {
       "name": "关键字 — 亮紫色",
       "scope": [
-        "keyword", "keyword.control", "keyword.operator",
-        "storage.type", "storage.modifier",
-        "keyword.other"
+        "keyword", "keyword.control",
+        "storage.type", "storage.modifier"
       ],
       "settings": {
         "foreground": "#c084fc",
@@ -27,79 +24,19 @@
       }
     },
     {
-      "name": "字符串 — 青蓝色",
+      "name": "字符串（双引号内容）— 青蓝色",
       "scope": [
         "string", "string.quoted", "string.template",
         "string.regexp"
       ],
-      "settings": {
-        "foreground": "#38bdf8"
-      }
+      "settings": { "foreground": "#38bdf8" }
     },
     {
-      "name": "函数/方法 — 青蓝色",
-      "scope": [
-        "entity.name.function", "entity.name.method",
-        "support.function", "support.function.builtin"
-      ],
-      "settings": {
-        "foreground": "#38bdf8"
-      }
-    },
-    {
-      "name": "数字 — 金黄色",
-      "scope": [
-        "constant.numeric", "constant.language",
-        "constant.character"
-      ],
-      "settings": {
-        "foreground": "#fbbf24"
-      }
-    },
-    {
-      "name": "类型/类名 — 金黄色",
-      "scope": [
-        "entity.name.type", "entity.name.class",
-        "support.type", "support.class"
-      ],
-      "settings": {
-        "foreground": "#fbbf24"
-      }
-    },
-    {
-      "name": "注释 — 暗灰",
+      "name": "注释/中文 — 粉紫色",
       "scope": ["comment", "comment.block", "comment.line"],
       "settings": {
-        "foreground": "#555560",
+        "foreground": "#d4a0ff",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "HTML标签 — 亮紫",
-      "scope": ["entity.name.tag", "meta.tag"],
-      "settings": {
-        "foreground": "#c084fc"
-      }
-    },
-    {
-      "name": "HTML属性 — 青蓝",
-      "scope": ["entity.other.attribute-name"],
-      "settings": {
-        "foreground": "#38bdf8"
-      }
-    },
-    {
-      "name": "参数/变量 — 80%白",
-      "scope": ["variable", "variable.parameter", "variable.other"],
-      "settings": {
-        "foreground": "#cccccc"
-      }
-    },
-    {
-      "name": "标点/操作符 — 60%灰",
-      "scope": ["punctuation", "keyword.operator", "meta.brace"],
-      "settings": {
-        "foreground": "#888890"
       }
     }
   ]
