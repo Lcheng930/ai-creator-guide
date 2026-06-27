@@ -5,7 +5,7 @@ sidebar: true
 
 # 全部文章
 
-## HyperFrames
+## <span class="cat-hyperframes">HyperFrames</span>
 
 ### [HyperFrames 完全指南：写 HTML 就能出视频](/posts/hyperframes-guide)
 
@@ -17,7 +17,7 @@ sidebar: true
 
 ---
 
-## Agent Skills
+## <span class="cat-agentskills">Agent Skills</span>
 
 ### [Claude Code Agent Skills 完全指南](/posts/agent-skills-guide)
 
@@ -29,17 +29,35 @@ sidebar: true
 
 ---
 
-## 计划中的文章
+## <span class="cat-aivideo">AI 视频工作流</span>
 
-| 分类 | 主题 |
-|------|------|
-| **HyperFrames** | HyperFrames vs Remotion：5 维度实测对比 |
-| **HyperFrames** | 用 HyperFrames + GSAP 做产品介绍视频（附源码） |
-| **Agent Skills** | Agent Skills 进阶：多 Agent 协同工作流设计 |
-| **AI 视频工作流** | AI 视频工具链选购指南：2000 元预算怎么分配 |
-| **Claude Code** | Claude Code 日常实战：Vibe Coding 提速 10 倍的 12 个习惯 |
-| **提示词工程** | AI 视频提示词工业化：一套模板出 100 条视频 |
-| **工具链测评** | 可灵 vs 即梦 vs Seedance：三大视频生成工具横向对比 |
+*即将发布*
+
+从提示词到发布的全流程自动化。AI 短剧 / 电商带货 / 文旅宣传的完整工具链和实战方法论。
+
+---
+
+## <span class="cat-claude">Claude Code 深度</span>
+
+*即将发布*
+
+AI 编程的日常实战。Vibe Coding 技巧、上下文管理、自定义 Skills 开发、国内环境适配方案。
+
+---
+
+## <span class="cat-prompt">提示词工程</span>
+
+*即将发布*
+
+精确控制 AI 输出。图片/视频提示词方法论、结构化框架、翻车案例修正、工业化模板体系。
+
+---
+
+## <span class="cat-tools">工具链测评</span>
+
+*即将发布*
+
+独立对比实测。HyperFrames vs Remotion、可灵 vs 即梦 vs Seedance、Cursor vs Codex。数据说话。
 
 ---
 

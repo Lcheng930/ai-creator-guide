@@ -713,6 +713,16 @@ html.dark .VPFeature img {
 }
 
 /* =================================================================
+   CATEGORY HEADING COLORS — 文章列表分类标题
+   ================================================================= */
+.cat-hyperframes { color: #38bdf8; }
+.cat-agentskills { color: #d4993c; }
+.cat-aivideo      { color: #ff9e64; }
+.cat-claude       { color: #bb9af7; }
+.cat-prompt       { color: #d4993c; }
+.cat-tools        { color: #d4993c; }
+
+/* =================================================================
    BLOG POST LIST ITEMS — 文章卡片
    ================================================================= */
 .blog-preview-item {
