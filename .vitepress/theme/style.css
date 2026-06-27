@@ -1,13 +1,13 @@
 /* =================================================================
    AI 创客指南 — 暗房主题 v2
-   + 个性字体系统（Ma Shan Zheng / Long Cang / Inter / DM Mono）
+   + 个性字体系统（Noto Serif SC / Long Cang / Inter / DM Mono）
    + 鼠标跟随微光 + Hero 入场 + 卡片微倾斜 + 滚动 reveal
    + 丰富代码语法高亮
    + 分类色系切换（HyperFrames 青蓝 / Agent Skills 琥珀金）
    ================================================================= */
 
 /* ----- Google Fonts ----- */
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Inter:opsz,wght@14..32,400..600&family=Long+Cang&family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Inter:opsz,wght@14..32,400..600&family=Long+Cang&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
 
 /* =================================================================
    DESIGN TOKENS
@@ -55,8 +55,8 @@
   --bg-root-rgb:  8, 8, 10;
 
   /* 字体系统 */
-  --font-display:   'Ma Shan Zheng', 'Noto Sans SC', sans-serif;
-  --font-hand:      'Long Cang', 'Ma Shan Zheng', cursive;
+  --font-display:   'Noto Serif SC', 'Noto Sans SC', sans-serif;
+  --font-hand:      'Long Cang', 'Noto Serif SC', cursive;
   --font-body:      'Inter', 'Noto Sans SC', -apple-system, sans-serif;
   --font-mono:      'DM Mono', 'JetBrains Mono', 'Fira Code', monospace;
 
@@ -212,7 +212,7 @@ body {
    TYPOGRAPHY — 个性字体层次
    ================================================================= */
 
-/* Hero 大标题 — Ma Shan Zheng 有个性的几何圆体 */
+/* Hero 大标题 — Noto Serif SC 有个性的几何圆体 */
 .VPHero .name,
 h1 {
   font-family: var(--font-display) !important;
