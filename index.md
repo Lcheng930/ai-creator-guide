@@ -16,16 +16,16 @@ hero:
       link: /posts/agent-skills-guide
     - theme: alt
       text: AI 视频工作流
-      link: /posts/
+      link: /posts/ai-video-workflow
     - theme: alt
       text: Claude Code 深度
-      link: /posts/
+      link: /posts/claude-code-guide
     - theme: alt
       text: 提示词工程
-      link: /posts/
+      link: /posts/prompt-engineering
     - theme: alt
       text: 工具链测评
-      link: /posts/
+      link: /posts/tool-comparison
 
 features:
   - icon:
@@ -42,22 +42,22 @@ features:
       src: /icons/workflow.svg
     title: AI 视频工作流
     details: 从提示词到发布的全流程自动化。AI 短剧 / 电商带货 / 文旅宣传的完整工具链和实战方法论。
-    link: /posts/
+    link: /posts/ai-video-workflow
   - icon:
       src: /icons/terminal.svg
     title: Claude Code 深度
-    details: AI 编程的日常实战。Vibe Coding 技巧、上下文管理、自定义 Skills 开发、国内环境适配方案。
-    link: /posts/
+    details: AI 编程的日常实战。12 个提速习惯、Skills 封装、上下文管理、国内环境适配方案。
+    link: /posts/claude-code-guide
   - icon:
       src: /icons/sparkle.svg
     title: 提示词工程
-    details: 精确控制 AI 输出。图片/视频提示词方法论、结构化框架、翻车案例修正、工业化模板体系。
-    link: /posts/
+    details: 精确控制 AI 输出。五层结构框架、翻车案例诊断、工业化模板体系。
+    link: /posts/prompt-engineering
   - icon:
       src: /icons/gauge.svg
     title: 工具链测评
-    details: 独立对比实测。HyperFrames vs Remotion、可灵 vs 即梦 vs Seedance、Cursor vs Codex。数据说话。
-    link: /posts/
+    details: 独立对比实测。Seedance/可灵/即梦/Runway、Cursor/Claude Code/Copilot。数据说话。
+    link: /posts/tool-comparison
 ---
 
 ## 最新文章

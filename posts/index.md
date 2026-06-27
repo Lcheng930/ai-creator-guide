@@ -11,7 +11,7 @@ sidebar: true
 
 *2026.06.27*
 
-从零到工业化量产，最完整的中文 HyperFrames 教程。安装配置、HTML 时间轴语法、GSAP 动画集成、Remotion 对比、批量生产流水线。
+从零到工业化量产。安装配置、HTML 时间轴语法、GSAP 动画集成、Remotion 对比、批量生产流水线。
 
 👉 [阅读 →](/posts/hyperframes-guide)
 
@@ -23,7 +23,7 @@ sidebar: true
 
 *2026.06.27*
 
-从"每次重写 prompt"到"一次封装永久复用"。SKILL.md 编写规范、10 个实战模板、多 Agent 协作架构、国内环境适配。
+从"每次重写 prompt"到"一次封装永久复用"。SKILL.md 编写规范、10 个实战模板、多 Agent 协作架构。
 
 👉 [阅读 →](/posts/agent-skills-guide)
 
@@ -31,33 +31,49 @@ sidebar: true
 
 ## <span class="cat-aivideo">AI 视频工作流</span>
 
-*即将发布*
+### <a href="/posts/ai-video-workflow" style="color:#ca8a04">AI 视频工作流全指南</a>
 
-从提示词到发布的全流程自动化。AI 短剧 / 电商带货 / 文旅宣传的完整工具链和实战方法论。
+*2026.06.27*
+
+从提示词到发布的自动化流水线。剧本→分镜→生成→剪辑→发布的完整工具链和工业化方案。
+
+👉 [阅读 →](/posts/ai-video-workflow)
 
 ---
 
 ## <span class="cat-claude">Claude Code 深度</span>
 
-*即将发布*
+### <a href="/posts/claude-code-guide" style="color:#ca8a04">Claude Code 深度实战</a>
 
-AI 编程的日常实战。Vibe Coding 技巧、上下文管理、自定义 Skills 开发、国内环境适配方案。
+*2026.06.27*
+
+12 个提速习惯。CLAUDE.md、Skills 封装、上下文管理、结构化指令、国内环境适配。
+
+👉 [阅读 →](/posts/claude-code-guide)
 
 ---
 
 ## <span class="cat-prompt">提示词工程</span>
 
-*即将发布*
+### <a href="/posts/prompt-engineering" style="color:#ca8a04">提示词工程深度指南</a>
 
-精确控制 AI 输出。图片/视频提示词方法论、结构化框架、翻车案例修正、工业化模板体系。
+*2026.06.27*
+
+精确控制 AI 输出的系统方法论。五层结构、翻车案例诊断、视频提示词额外维度、工业化模板体系。
+
+👉 [阅读 →](/posts/prompt-engineering)
 
 ---
 
 ## <span class="cat-tools">工具链测评</span>
 
-*即将发布*
+### <a href="/posts/tool-comparison" style="color:#ca8a04">AI 工具链横向测评</a>
 
-独立对比实测。HyperFrames vs Remotion、可灵 vs 即梦 vs Seedance、Cursor vs Codex。数据说话。
+*2026.06.27*
+
+Seedance vs 可灵 vs 即梦 vs Runway、Cursor vs Claude Code vs Copilot、HyperFrames vs Remotion。数据说话。
+
+👉 [阅读 →](/posts/tool-comparison)
 
 ---
 

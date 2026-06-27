@@ -37,25 +37,25 @@ export default defineConfig({
         {
           text: 'AI 视频工作流',
           items: [
-            { text: '即将发布', link: '/posts/#ai-视频工作流' },
+            { text: 'AI 视频工作流全指南', link: '/posts/ai-video-workflow' },
           ]
         },
         {
           text: 'Claude Code 深度',
           items: [
-            { text: '即将发布', link: '/posts/#claude-code-深度' },
+            { text: 'Claude Code 深度实战', link: '/posts/claude-code-guide' },
           ]
         },
         {
           text: '提示词工程',
           items: [
-            { text: '即将发布', link: '/posts/#提示词工程' },
+            { text: '提示词工程深度指南', link: '/posts/prompt-engineering' },
           ]
         },
         {
           text: '工具链测评',
           items: [
-            { text: '即将发布', link: '/posts/#工具链测评' },
+            { text: 'AI 工具链横向测评', link: '/posts/tool-comparison' },
           ]
         },
       ]
