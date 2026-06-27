@@ -645,10 +645,13 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.25);
+  background: #1a1a1e !important;
 }
 ::-webkit-scrollbar-corner {
-  background: rgba(255, 255, 255, 0.25);
+  background: #1a1a1e !important;
+}
+html {
+  scrollbar-color: rgba(255,255,255,.12) #1a1a1e;
 }
 
 ::-webkit-scrollbar-thumb {
