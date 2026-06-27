@@ -641,7 +641,7 @@ html.dark .VPFeature img {
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.10);
 }
 
 ::-webkit-scrollbar-thumb {
