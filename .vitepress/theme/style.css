@@ -220,7 +220,7 @@ h1 {
   font-size: clamp(2.5rem, 6vw, 4.5rem) !important;
   line-height: 1.15 !important;
   letter-spacing: 0.03em !important;
-  color: var(--text-primary);
+  color: #eab308;
   background: none !important;
   -webkit-background-clip: unset !important;
   background-clip: unset !important;
