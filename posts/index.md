@@ -7,7 +7,7 @@ sidebar: true
 
 ## <span class="cat-hyperframes">HyperFrames</span>
 
-### <a href="/posts/hyperframes-guide" style="color:#fbbf24">HyperFrames 完全指南：写 HTML 就能出视频</a>
+### <a href="/posts/hyperframes-guide" style="color:#eab308">HyperFrames 完全指南：写 HTML 就能出视频</a>
 
 *2026.06.27*
 
@@ -19,7 +19,7 @@ sidebar: true
 
 ## <span class="cat-agentskills">Agent Skills</span>
 
-### <a href="/posts/agent-skills-guide" style="color:#fbbf24">Claude Code Agent Skills 完全指南</a>
+### <a href="/posts/agent-skills-guide" style="color:#eab308">Claude Code Agent Skills 完全指南</a>
 
 *2026.06.27*
 
