@@ -715,14 +715,14 @@ html.dark .VPFeature img {
 }
 
 /* =================================================================
-   CATEGORY HEADING COLORS — 分类区块标题
+   CATEGORY HEADING COLORS — 分类区块标题（统一琥珀金）
    ================================================================= */
-.cat-hyperframes { color: #38bdf8; }
-.cat-agentskills { color: #d4993c; }
-.cat-aivideo     { color: #ff9e64; }
-.cat-claude      { color: #bb9af7; }
-.cat-prompt      { color: #d4993c; }
-.cat-tools       { color: #d4993c; }
+.cat-hyperframes,
+.cat-agentskills,
+.cat-aivideo,
+.cat-claude,
+.cat-prompt,
+.cat-tools { color: #d4993c; }
 
 /* =================================================================
    BLOG POST LIST ITEMS — 文章卡片
