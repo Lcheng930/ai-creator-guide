@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r,a2 as l}from"./chunks/framework.BINC4aE7.js";const p=JSON.parse('{"title":"关于","description":"","frontmatter":{"title":"关于"},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),o={name:"about.md"};function i(n,a,s,h,u,d){return t(),r("div",null,[...a[0]||(a[0]=[l("",18)])])}const g=e(o,[["render",i]]);export{p as __pageData,g as default};
