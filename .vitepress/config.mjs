@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
+  base: '/ai-creator-guide/',
   title: 'AI 创客指南',
   description: 'HyperFrames、Agent Skills、AI 视频制作深度教程 —— 用 AI 十倍提升创作效率',
   head: [
