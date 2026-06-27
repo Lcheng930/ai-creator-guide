@@ -13,7 +13,7 @@ head:
       content: '2026年最完整的 Agent Skills 中文教程。从入门到多 Agent 协作架构，10 个实战模板。'
 ---
 
-# Claude Code Agent Skills 完全指南：封装你的 AI 工作流
+<h1 style="color:#d4993c">Claude Code Agent Skills 完全指南：封装你的 AI 工作流</h1>
 
 *2026年6月27日 · 阅读约 22 分钟*
 
