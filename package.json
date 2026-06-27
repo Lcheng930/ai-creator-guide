@@ -10,10 +10,19 @@
     "preview": "vitepress preview",
     "deploy": "vitepress build && rm -rf docs && cp -r .vitepress/dist docs"
   },
-  "keywords": ["AI","HyperFrames","Agent Skills","Claude Code","AI教程"],
+  "keywords": [
+    "AI",
+    "HyperFrames",
+    "Agent Skills",
+    "Claude Code",
+    "AI教程"
+  ],
   "author": "Lcheng",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "cursor-effects": "^1.0.18"
   }
 }

@@ -140,6 +140,22 @@
   --vp-c-brand-soft: rgba(255, 158, 100, 0.12);
 }
 
+/* --- Claude Code → 紫罗兰 --- */
+.category-claude {
+  --accent:       #bb9af7;
+  --accent-hover: #cbb6ff;
+  --accent-muted: rgba(187, 154, 247, 0.12);
+  --accent-glow:  rgba(187, 154, 247, 0.25);
+  --accent-rgb:   187, 154, 247;
+  --border-accent: rgba(187, 154, 247, 0.3);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(187, 154, 247, 0.04);
+  --shadow-glow: 0 0 80px rgba(187, 154, 247, 0.05);
+  --vp-c-brand-1:    #bb9af7;
+  --vp-c-brand-2:    #cbb6ff;
+  --vp-c-brand-3:    #bb9af7;
+  --vp-c-brand-soft: rgba(187, 154, 247, 0.12);
+}
+
 /* =================================================================
    MOUSE SPOTLIGHT — 鼠标跟随微光
    ================================================================= */
@@ -324,31 +340,74 @@ div[class*='language-'] {
   background: var(--bg-surface) !important;
 }
 
-/* ---- 语法高亮彩色覆盖 ---- */
+/* ---- 丰富语法高亮：彩色区分每个 token 类型 ---- */
 
-/* 关键字: const, let, function, import, export, return, if, else... */
-.token.keyword {
+/* 关键字: const, let, var, function, import, export, return, if, else, for, while, class, async, await... */
+.token.keyword,
+.token.import,
+.token.export,
+.token.return,
+.token.if,
+.token.else,
+.token.for,
+.token.while,
+.token.class,
+.token.async,
+.token.await,
+.token.new,
+.token.throw,
+.token.try,
+.token.catch,
+.token.finally,
+.token.switch,
+.token.case,
+.token.default,
+.token.break,
+.token.continue,
+.token.typeof,
+.token.instanceof,
+.token.delete,
+.token.void,
+.token.in,
+.token.of {
   color: var(--code-purple) !important;
   font-weight: 500;
 }
 
-/* 字符串: "hello", 'world', `template` */
-.token.string {
+/* 字符串: "hello", 'world', `template ${}` */
+.token.string,
+.token.char,
+.token.symbol,
+.token.url,
+.token.attr-value {
   color: var(--code-green) !important;
 }
 
+/* 模板字符串内插值: ${...} */
+.token.interpolation,
+.token.interpolation-punctuation {
+  color: var(--code-teal) !important;
+}
+
 /* 函数/方法名 */
-.token.function {
+.token.function,
+.token.method,
+.token.function-variable {
   color: var(--code-blue) !important;
 }
 
-/* 数字 */
-.token.number {
+/* 数字: 123, 3.14, 0xFF, 1e10 */
+.token.number,
+.token.hexadecimal,
+.token.binary {
   color: var(--code-orange) !important;
 }
 
 /* 注释 — 手写感斜体 + 暗绿色 */
-.token.comment {
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
   color: #668855 !important;
   font-style: italic;
   font-family: var(--font-hand);
@@ -356,49 +415,126 @@ div[class*='language-'] {
   letter-spacing: 0.02em;
 }
 
-/* 布尔值 / null / undefined */
-.token.boolean,
-.token.null,
-.token.undefined {
+/* 布尔值: true / false */
+.token.boolean {
   color: var(--code-orange) !important;
+  font-weight: 500;
 }
 
-/* 属性名 / 标签 */
-.token.property,
-.token.tag {
+/* HTML/XML 标签名 */
+.token.tag,
+.token.tag > .token.tag {
+  color: var(--code-red) !important;
+}
+
+/* HTML 属性名 */
+.token.attr-name,
+.token.selector,
+.token.selector-class,
+.token.selector-id {
+  color: var(--code-yellow) !important;
+}
+
+/* CSS 属性 */
+.token.property {
   color: var(--code-cyan) !important;
 }
 
-/* 操作符: =, +, =>, ... */
-.token.operator,
-.token.punctuation {
+/* 操作符: =, +, -, *, /, =>, ... */
+.token.operator {
   color: var(--text-secondary) !important;
+}
+
+/* 标点 */
+.token.punctuation {
+  color: var(--text-muted) !important;
 }
 
 /* 类名 / 类型 */
 .token.class-name,
-.token.type {
+.token.type,
+.token.builtin-type {
   color: var(--code-yellow) !important;
 }
 
-/* 正则 */
+/* 正则表达式 */
 .token.regex {
   color: var(--code-red) !important;
 }
 
-/* 内置对象: console, Math, JSON... */
-.token.builtin {
+/* 内置对象/常量: console, Math, JSON, process, window, document */
+.token.builtin,
+.token.constant,
+.token.console,
+.token.language {
   color: var(--code-teal) !important;
 }
 
-/* 变量 */
+/* 变量名 */
 .token.variable {
   color: var(--text-primary) !important;
 }
 
-/* 参数 */
-.token.parameter {
+/* 参数名 */
+.token.parameter,
+.token.argument {
   color: var(--code-orange) !important;
+}
+
+/* JSON 键名 */
+.token.key {
+  color: var(--code-cyan) !important;
+}
+
+/* Markdown 标题 */
+.token.heading {
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+
+/* Markdown 加粗/斜体标记 */
+.token.bold,
+.token.italic {
+  color: var(--code-yellow) !important;
+}
+
+/* 重要/高亮 */
+.token.important,
+.token.deleted {
+  color: var(--code-red) !important;
+}
+
+/* 插入/新增 */
+.token.inserted {
+  color: var(--code-green) !important;
+}
+
+/* 变更 */
+.token.changed {
+  color: var(--code-orange) !important;
+}
+
+/* 转义字符: \\n, \\t, \\uXXXX */
+.token.escape {
+  color: var(--code-teal) !important;
+}
+
+/* 命名空间 */
+.token.namespace {
+  color: var(--code-blue) !important;
+  opacity: 0.8;
+}
+
+/* 实体 */
+.token.entity {
+  color: var(--code-purple) !important;
+}
+
+/* 原始/控制字符 */
+.token.control,
+.token.directive {
+  color: var(--code-red) !important;
+  font-weight: 500;
 }
 
 /* ---- 代码块标题栏 ---- */
