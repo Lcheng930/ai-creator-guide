@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { readFileSync } from 'fs'
+const codeTheme = JSON.parse(readFileSync(new URL('./theme/code-theme.json', import.meta.url), 'utf-8'))
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -46,8 +48,8 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     theme: {
-      dark: 'vitesse-dark',
-      light: 'vitesse-light',
+      dark: codeTheme,
+      light: codeTheme,
     },
   },
 })
