@@ -7,7 +7,7 @@ head:
       content: 'AI工具测评,Seedance,可灵,即梦,Runway,Cursor,Claude Code,HyperFrames,Remotion,工具对比'
 ---
 
-<h1 style="color:#ca8a04">AI 工具链横向测评：2026年最值得投入的视频与编程工具</h1>
+<h1 style="color:#38bdf8">AI 工具链横向测评：2026年最值得投入的视频与编程工具</h1>
 
 *2026年6月27日 · 阅读约 18 分钟*
 

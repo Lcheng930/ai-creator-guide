@@ -7,7 +7,7 @@ sidebar: true
 
 ## <span class="cat-hyperframes">HyperFrames</span>
 
-### <a href="/ai-creator-guide/posts/hyperframes-guide.html" style="color:#ca8a04">HyperFrames 完全指南：写 HTML 就能出视频</a>
+### <a href="/ai-creator-guide/posts/hyperframes-guide.html" style="color:#38bdf8">HyperFrames 完全指南：写 HTML 就能出视频</a>
 
 *2026.06.27*
 
@@ -19,7 +19,7 @@ sidebar: true
 
 ## <span class="cat-agentskills">Agent Skills</span>
 
-### <a href="/ai-creator-guide/posts/agent-skills-guide.html" style="color:#ca8a04">Claude Code Agent Skills 完全指南</a>
+### <a href="/ai-creator-guide/posts/agent-skills-guide.html" style="color:#38bdf8">Claude Code Agent Skills 完全指南</a>
 
 *2026.06.27*
 
@@ -31,7 +31,7 @@ sidebar: true
 
 ## <span class="cat-aivideo">AI 视频工作流</span>
 
-### <a href="/ai-creator-guide/posts/ai-video-workflow.html" style="color:#ca8a04">AI 视频工作流全指南</a>
+### <a href="/ai-creator-guide/posts/ai-video-workflow.html" style="color:#38bdf8">AI 视频工作流全指南</a>
 
 *2026.06.27*
 
@@ -43,7 +43,7 @@ sidebar: true
 
 ## <span class="cat-claude">Claude Code 深度</span>
 
-### <a href="/ai-creator-guide/posts/claude-code-guide.html" style="color:#ca8a04">Claude Code 深度实战</a>
+### <a href="/ai-creator-guide/posts/claude-code-guide.html" style="color:#38bdf8">Claude Code 深度实战</a>
 
 *2026.06.27*
 
@@ -55,7 +55,7 @@ sidebar: true
 
 ## <span class="cat-prompt">提示词工程</span>
 
-### <a href="/ai-creator-guide/posts/prompt-engineering.html" style="color:#ca8a04">提示词工程深度指南</a>
+### <a href="/ai-creator-guide/posts/prompt-engineering.html" style="color:#38bdf8">提示词工程深度指南</a>
 
 *2026.06.27*
 
@@ -67,7 +67,7 @@ sidebar: true
 
 ## <span class="cat-tools">工具链测评</span>
 
-### <a href="/ai-creator-guide/posts/tool-comparison.html" style="color:#ca8a04">AI 工具链横向测评</a>
+### <a href="/ai-creator-guide/posts/tool-comparison.html" style="color:#38bdf8">AI 工具链横向测评</a>
 
 *2026.06.27*
 

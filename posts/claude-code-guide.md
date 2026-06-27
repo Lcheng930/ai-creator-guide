@@ -7,7 +7,7 @@ head:
       content: 'Claude Code,AI编程,Vibe Coding,Agent Skills,Cursor,AI开发工具,上下文管理,自定义指令'
 ---
 
-<h1 style="color:#ca8a04">Claude Code 深度实战：AI 编程的 12 个提速习惯</h1>
+<h1 style="color:#38bdf8">Claude Code 深度实战：AI 编程的 12 个提速习惯</h1>
 
 *2026年6月27日 · 阅读约 16 分钟*
 
