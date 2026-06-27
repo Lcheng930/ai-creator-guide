@@ -23,12 +23,41 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
-          text: '系列教程',
+          text: 'HyperFrames',
           items: [
             { text: 'HyperFrames 完全指南', link: '/posts/hyperframes-guide' },
+          ]
+        },
+        {
+          text: 'Agent Skills',
+          items: [
             { text: 'Agent Skills 完全指南', link: '/posts/agent-skills-guide' },
           ]
-        }
+        },
+        {
+          text: 'AI 视频工作流',
+          items: [
+            { text: '即将发布', link: '/posts/#ai-视频工作流' },
+          ]
+        },
+        {
+          text: 'Claude Code 深度',
+          items: [
+            { text: '即将发布', link: '/posts/#claude-code-深度' },
+          ]
+        },
+        {
+          text: '提示词工程',
+          items: [
+            { text: '即将发布', link: '/posts/#提示词工程' },
+          ]
+        },
+        {
+          text: '工具链测评',
+          items: [
+            { text: '即将发布', link: '/posts/#工具链测评' },
+          ]
+        },
       ]
     },
     socialLinks: [
