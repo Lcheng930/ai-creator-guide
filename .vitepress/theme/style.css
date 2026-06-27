@@ -226,26 +226,28 @@ h1 {
   background-clip: unset !important;
 }
 
-/* H2 — 分类色标题 */
+/* H2 — 分类色标题（加特异性覆盖 VitePress 默认） */
+.vp-doc h2,
 h2 {
   font-family: var(--font-body);
   font-weight: 600;
   font-size: 1.35rem;
   line-height: 1.35;
   letter-spacing: -0.01em;
-  color: #ca8a04;
+  color: #ca8a04 !important;
   margin: 2.5em 0 0.8em;
   padding-top: 0.5em;
   border-top: 1px solid var(--border);
 }
 
 /* H3 */
+.vp-doc h3,
 h3 {
   font-family: var(--font-body);
   font-weight: 600;
   font-size: 1.1rem;
   line-height: 1.4;
-  color: #ca8a04;
+  color: #ca8a04 !important;
   margin: 1.8em 0 0.5em;
 }
 
