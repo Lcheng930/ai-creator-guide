@@ -13,7 +13,7 @@ head:
       content: '2026年最完整的 HyperFrames 中文教程。HeyGen 开源，22K+ GitHub Stars。'
 ---
 
-<h1 style="color:#38bdf8">HyperFrames 完全指南：写 HTML 就能出视频</h1>
+<h1 style="color:#fbbf24">HyperFrames 完全指南：写 HTML 就能出视频</h1>
 
 *2026年6月27日 · 阅读约 20 分钟*
 
