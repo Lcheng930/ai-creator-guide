@@ -636,7 +636,7 @@ html.dark .VPFeature img {
    SCROLLBAR
    ================================================================= */
 html {
-  scrollbar-color: rgba(255, 255, 255, 0.12) rgba(255, 255, 255, 0.15);
+  scrollbar-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25);
   scrollbar-width: thin;
 }
 ::-webkit-scrollbar {
@@ -645,10 +645,10 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.25);
 }
 ::-webkit-scrollbar-corner {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 ::-webkit-scrollbar-thumb {
