@@ -5,12 +5,12 @@ export default defineConfig({
   base: '/ai-creator-guide/',
   title: 'AI 创客指南',
   description: 'HyperFrames、Agent Skills、AI 视频制作深度教程 —— 用 AI 十倍提升创作效率',
+  appearance: 'dark',
   head: [
     ['meta', { name: 'keywords', content: 'HyperFrames,Agent Skills,AI视频,AI短剧,Claude Code,提示词工程,AI教程' }],
     ['meta', { name: 'author', content: 'Lcheng' }],
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // Google Analytics - 部署后替换为你的 ID
-    // ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' }],
+    ['meta', { name: 'theme-color', content: '#08080a' }],
+    ['link', { rel: 'icon', href: '/ai-creator-guide/favicon.ico' }],
   ],
   themeConfig: {
     nav: [
@@ -21,7 +21,7 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
-          text: '📚 系列教程',
+          text: '系列教程',
           items: [
             { text: 'HyperFrames 完全指南', link: '/posts/hyperframes-guide' },
             { text: 'Agent Skills 完全指南', link: '/posts/agent-skills-guide' },
@@ -38,12 +38,12 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
+    outline: {
+      level: [2, 3],
+      label: '本页目录',
+    },
   },
   markdown: {
     lineNumbers: true,
-    theme: {
-      light: 'github-light',
-      dark: 'github-dark',
-    },
   },
 })

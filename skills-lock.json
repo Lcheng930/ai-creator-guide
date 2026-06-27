@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "awesome-design-html": {
+      "source": "yzfly/awesome-design-html",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "441e47f2e1a017af583ec2a5e77bdcb065984873fe30319845316b98529d060c"
+    },
+    "css-hover-effects": {
+      "source": "dabaibian/css-skills",
+      "sourceType": "github",
+      "skillPath": "skills/css-hover-effects/SKILL.md",
+      "computedHash": "ecb36ead4281f6bd06cd35dd0c137debb385d020bc23039cf3d5c44362b78c45"
+    },
+    "css-micro-fx": {
+      "source": "dabaibian/css-skills",
+      "sourceType": "github",
+      "skillPath": "skills/css-micro-fx/SKILL.md",
+      "computedHash": "f22853003c7e7f796cb95637c721a1e6c6bee3dc2bc443889bb6b97c67178829"
+    },
+    "web-design": {
+      "source": "KAOPU-XiaoPu/web-design",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "7d049f33ba883c19324f95d9c6b26938ac5aeaf2a20e902c2bde8713e09a718d"
+    }
+  }
+}
