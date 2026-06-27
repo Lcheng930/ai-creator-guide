@@ -737,12 +737,17 @@ hr {
   box-shadow: var(--shadow-glow) !important;
 }
 
-.VPFeature .VPImage {
+/* Feature 图标 —— 强制全亮，禁止任何暗色滤镜 */
+.VPFeature .VPImage,
+.dark .VPFeature .VPImage,
+html.dark .VPFeature img {
+  filter: none !important;
+  opacity: 1 !important;
   transition: filter 200ms ease, transform 300ms ease;
 }
 
 .VPFeature:hover .VPImage {
-  filter: brightness(1.3);
+  filter: brightness(1.15) !important;
   transform: scale(1.15);
 }
 
